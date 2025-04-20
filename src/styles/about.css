@@ -1,0 +1,23 @@
+.about {
+  height: 100vh; /* Устанавливаем высоту экрана */
+  display: flex;
+  flex-direction: column; /* Для вертикального выравнивания элементов */
+  justify-content: center; /* Центрируем содержимое по вертикали */
+  align-items: center; /* Центрируем содержимое по горизонтали */
+  text-align: center; /* Центрируем текст */
+  padding: 2rem;
+  background: #f5f5f5; /* Простой фон, можно заменить на градиент или изображение */
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0d47a1;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  color: #333;
+  line-height: 1.6;
+}
