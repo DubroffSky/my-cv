@@ -1,13 +1,16 @@
 .stack-section {
-    padding: 4rem 2rem;
-    background-color: #f9f9f9;
+    padding: 4rem;
+    background-color: #E4F0D0;
     text-align: center;
+    height: 100vh;
+    min-height: 100vh;
   }
   
   .stack-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 0.5em;
+    color: #377540;
   }
   
   .stack-grid {

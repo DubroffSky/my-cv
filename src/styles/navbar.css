@@ -26,3 +26,8 @@
   .nav-list li a:hover {
     color: #1565c0;
   }
+
+  section {
+    scroll-margin-top: 70px;
+    padding-top: 20px;
+  }

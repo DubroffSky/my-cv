@@ -1,23 +1,84 @@
 .about {
-  height: 100vh; /* Устанавливаем высоту экрана */
-  display: flex;
-  flex-direction: column; /* Для вертикального выравнивания элементов */
-  justify-content: center; /* Центрируем содержимое по вертикали */
-  align-items: center; /* Центрируем содержимое по горизонтали */
-  text-align: center; /* Центрируем текст */
   padding: 2rem;
-  background: #f5f5f5; /* Простой фон, можно заменить на градиент или изображение */
+  background-color: #376464;
+  max-height: 100vh;
+  min-height: 85vh;
+  max-width: 100vw; 
+  margin: 0 auto; 
 }
 
 .about h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #0d47a1;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #bfdf80;
+  text-align: center;
 }
 
-.about p {
-  font-size: 1.2rem;
-  max-width: 800px;
-  color: #333;
-  line-height: 1.6;
+.info-block {
+  margin-top: -1em;
+}
+
+.info-container.no-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
+
+.info-section {
+  flex: 1 1 calc(33.333% - 2rem); 
+  min-width: 280px;
+  background: #704554;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+  box-sizing: border-box; 
+}
+
+/* Остальные стили остаются такими же */
+.info-section:hover {
+  transform: translateY(-3px);
+}
+
+.info-section h3 {
+  color: #D0E5A6;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0em;
+}
+
+.info-section h4 {
+  color: #D0E5A6;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  margin-top: -0.2em;
+  margin-bottom: -0em;
+}
+
+.info-section ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5em;
+  list-style-type: disc;
+}
+
+.info-section li {
+  font-size: 1rem;
+  color: #bed197d2;
+}
+
+/* Мобильная адаптация */
+@media screen and (max-width: 768px) {
+  .info-container.no-scroll {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-section {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
