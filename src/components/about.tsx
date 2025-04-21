@@ -16,18 +16,19 @@ const Intro: React.FC = () => {
             </ul>
           </div>
           <div className="info-section">
-            <h3>Dashboards and B2B services.</h3>
+            <h3>AI-integrated Reporting</h3>
             <ul>
-              <li>Django Admin + Custom.</li>
-              <li>PostgreSQL + SQLite</li>
-              <li></li>
+              <li>Automatic generation of text-based reports from structured data.</li>
+              <li>OpenAI and other GPT integration.</li>
+              <li>Export to PDF, JSON, Excel.</li>
             </ul>
           </div>
           <div className="info-section">
-            <h3>Education</h3>
+            <h3>Automation & Background Tasks</h3>
             <ul>
-              <li>Bachelor's in Computer Science</li>
-              <li>Online Courses in Web Development</li>
+              <li>Advanced Django Admin customizations.</li>
+              <li>Role-based dashboards for internal teams.</li>
+              <li>Visual progress tracking and inline charts.</li>
             </ul>
           </div>
         </div>

@@ -87,7 +87,7 @@ function ContactForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message"> </label>
           <textarea
             id="message"
             name="message"
@@ -104,13 +104,13 @@ function ContactForm() {
       </form>
 
       <div className="social-icons">
-        <a href="https://www.linkedin.com/in/твоя-ссылка" target="_blank" rel="noopener noreferrer">
+        <a href="www.linkedin.com/in/grigorii-dubrovskii-prog" target="_blank" rel="noopener noreferrer">
           <LinkedinIcon size={28} />
         </a>
-        <a href="https://t.me/твой-ник" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/hastigkeit" target="_blank" rel="noopener noreferrer">
           <TelegramIcon size={28} />
         </a>
-        <a href="https://wa.me/твой-номер" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/4915733321694" target="_blank" rel="noopener noreferrer">
           <WhatsappIcon size={28} />
         </a>
       </div>

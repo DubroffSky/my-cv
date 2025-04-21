@@ -16,7 +16,7 @@ const projects: Project[] = [
     company: 'MeraFitness',
     title: 'Software Developer',
     type: 'Full-time',
-    period: 'Jul 2024 – Present · 10 mos',
+    period: 'Jul 2024 – Present',
     location: 'Istambul, Turkie · Remote',
     description:
       'Working with databases, creating interfaces in Django, using OpenAI API, building a B2B platform for athletic device management and complex data processing.',

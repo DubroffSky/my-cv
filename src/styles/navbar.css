@@ -24,7 +24,8 @@
   }
   
   .nav-list li a:hover {
-    color: #1565c0;
+    color: #c21b1bd2;
+    border-radius: 24px;
   }
 
   section {
