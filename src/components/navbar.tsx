@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
       <ul className="nav-list">
         <li><a href="#hello" onClick={(e) => handleClick(e, 'hello')}>Main</a></li>
         <li><a href="#contacts" onClick={(e) => handleClick(e, 'contacts')}>Contacts</a></li>
-        <li><a href="#about" onClick={(e) => handleClick(e, 'about')}>About</a></li>
+        <li><a href="#about" onClick={(e) => handleClick(e, 'about')}>Services</a></li>
         <li><a href="#stack" onClick={(e) => handleClick(e, 'stack')}>Stack</a></li>
         <li><a href="#projects" onClick={(e) => handleClick(e, 'projects')}>Projects</a></li>
       </ul>
