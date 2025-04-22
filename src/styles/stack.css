@@ -2,14 +2,14 @@
     padding: 4rem;
     background-color: #E4F0D0;
     text-align: center;
-    height: 100vh;
+    height: 135vh;
     min-height: 100vh;
   }
   
   .stack-section h2 {
     font-size: 3rem;
-    margin-bottom: 5rem;
-    margin-top: 0.5em;
+    margin-bottom: 6rem;
+    margin-top: 0em;
     color: #377540;
     padding-top: 0vh;
   }
@@ -18,14 +18,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
-    max-width: 800px;
+    max-width: 40vw;
     margin: 0 auto;
   }
   
   .stack-card {
     background: white;
     border-radius: 1rem;
-    padding: 1.2rem;
+    max-width: 40vw;
+    padding: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;

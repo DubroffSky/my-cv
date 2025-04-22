@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { IconType } from 'react-icons';
 import { FaReact, FaPython, FaNodeJs, FaGitAlt } from 'react-icons/fa';
 import { SiTypescript, SiDjango, SiPostgresql } from 'react-icons/si';
+import { IoLogoJavascript } from "react-icons/io5";
 import '../styles/stack.css';
 
 
@@ -20,6 +21,7 @@ const techs: Tech[] = [
     { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
     { name: 'Node.js', icon: FaNodeJs, color: '#83CD29' },
     { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+    { name: 'JavaScript', icon: IoLogoJavascript, color: '#e7eb1d'}
   ];
   
   const Stack: React.FC = () => {
