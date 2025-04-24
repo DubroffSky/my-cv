@@ -96,7 +96,7 @@
   /* Адаптивность */
   @media (max-width: 768px) {
     .contact-form-container {
-      padding: 2rem 1rem;
+      
       margin-top: 0;
       width: 100%;
     }

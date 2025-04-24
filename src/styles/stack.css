@@ -2,7 +2,7 @@
     padding: 4rem;
     background-color: #E4F0D0;
     text-align: center;
-    height: 135vh;
+    height: 100vh;
     min-height: 100vh;
   }
   
@@ -47,4 +47,28 @@
     font-weight: 600;
     font-size: 1rem;
     color: #444;
+  }
+
+  @media (max-width: 768px) {
+    .stack-section {
+      height: 100vh;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .stack-section {
+      height: 140vh;
+    }
+  }
+
+  @media (max-width: 415px) {
+    .stack-section {
+      height: 145vh;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .stack-section {
+      height: 180vh;
+    }
   }
