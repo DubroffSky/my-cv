@@ -104,7 +104,7 @@ function ContactForm() {
       </form>
 
       <div className="social-icons">
-        <a href="www.linkedin.com/in/grigorii-dubrovskii-prog" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/grigorii-dubrovskii-prog/" target="_blank" rel="noopener noreferrer">
           <LinkedinIcon size={28} />
         </a>
         <a href="https://t.me/hastigkeit" target="_blank" rel="noopener noreferrer">
